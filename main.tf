@@ -1,4 +1,4 @@
 module "first-module" {
-  source = "./modules/first-module"
-  version = "~> 1"
+  source = "github.com/yaroslav-007/ticket-pet"
+  version = "~> 1.0.1"
 }
