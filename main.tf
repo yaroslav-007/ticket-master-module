@@ -1,5 +1,4 @@
-module "first-module" {
-  source = "github.com/yaroslav-007/ticket-pet"
-  version = "~> 1.0.3"
+module "pet" {
+  source  = "app.terraform.io/yaroslav-org/pet/randompet"
+  version = "1.0.0"
 }
-  
